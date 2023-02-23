@@ -1,3 +1,8 @@
+// Vijaybhai desai  Student ID:-  A00264568
+//harsh patel Student ID:-  A00271710
+//jenil parmar Student ID:-  A00271994
+/*  Program Description: This is small kotlin command line program based on classes and objects. In this program, I am going to create 
+                         dice using contructor of Die class and display results. */
 import Die
 
 fun main() {
@@ -41,12 +46,7 @@ fun main() {
     println("Creating 5 ${d6.getType()}s...")
     println("YAHTZEE! It took $count rolls.")
 
-    // Second output
-    println("The ${d6.getType()} and ${d20.getType()} values matched both times, so here's a second output")
-    d6.roll()
-    d20.setCurrentValue(d6.getCurrentValue())
-    println("The current side up for ${d6.getType()} is ${d6.getCurrentValue()}")
-    println("The current side up for ${d20.getType()} is ${d20.getCurrentValue()}")
+    
 }
 
 
